@@ -1,0 +1,113 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/singleblog_dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="15dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:id="@+id/singleblog_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="Name" />
+                    <TextView
+                        android:textColor="@color/colorAccent"
+                        android:paddingRight="20dp"
+                        android:textSize="12dp"
+                        android:gravity="right"
+                        android:text="text"
+                        android:id="@+id/singleblog_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/singlesharingimage"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/singlepost_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/singlepost_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/singleblog_likeview"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="liked this post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/singleblog_like"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/ic_thumb_up_white"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:id="@+id/singleblog_comment"
+                    android:layout_marginLeft="20dp"
+                    android:text="Comment"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/singleblog_share"
+                    android:gravity="center"
+                    android:drawableEnd="@drawable/ic_screen_share_black_24dp"
+                    android:paddingRight="20dp"
+                    android:text="Share"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:drawableRight="@drawable/ic_screen_share_black_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

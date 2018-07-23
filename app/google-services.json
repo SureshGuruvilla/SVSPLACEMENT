@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999966368590",
+    "firebase_url": "https://svsplacement-c3c6e.firebaseio.com",
+    "project_id": "svsplacement-c3c6e",
+    "storage_bucket": "svsplacement-c3c6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999966368590:android:e361c27475cb52f2",
+        "android_client_info": {
+          "package_name": "com.example.admin.svsplacement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999966368590-bqfic6bgcpsv5lmmj146h6p4psgjgmed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.svsplacement",
+            "certificate_hash": "0554b8a8c173386d7dae17288dc59765f26d86ec"
+          }
+        },
+        {
+          "client_id": "999966368590-v819jqhv53q8n1ec4vee0met44e8t5k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7CqELXFFjzD6Vq85uQ6vBI2L4GMvRwhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999966368590-v819jqhv53q8n1ec4vee0met44e8t5k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

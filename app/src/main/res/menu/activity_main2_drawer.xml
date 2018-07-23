@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item android:id="@+id/main" android:title="Home" android:icon="@drawable/ic_navhome"/>
+        <item android:id="@+id/svs" android:title="SVSCE" android:icon="@drawable/ic_school_black_24dp"/>
+        <item android:id="@+id/about" android:title="About Us" android:icon="@drawable/ic_account_circle_black_24dp"/>
+        <item android:id="@+id/contact" android:title="Contact Us" android:icon="@drawable/ic_local_phone_black_24dp"/>
+    </group>
+   <group
+       android:id="@+id/menu_bottom"
+       android:checkableBehavior="none">
+       <item android:id="@+id/search" android:title="Search" android:icon="@drawable/ic_search"/>
+       <item android:id="@+id/admin" android:title="Admin dashboard" android:icon="@drawable/ic_account_circle_black_24dp"/>
+       <item android:id="@+id/feedback" android:title="Feedback" android:icon="@drawable/ic_chrome_reader"/>
+   </group>
+</menu>

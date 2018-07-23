@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:visibility="gone"
+    android:id="@+id/setup_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/gradient"
+        >
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.admin.svsplacement.SetupActivity"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/setup_text"
+                android:textColor="#FF4081"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:text="Setup Your Account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:background="@drawable/dp"
+                    android:id="@+id/setup_dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/setup_setdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_camera_alt"
+                    app:backgroundTint="@color/white"
+                    app:fabSize="mini"
+                    app:layout_anchorGravity="bottom|right|end" />
+            </android.support.design.widget.CoordinatorLayout>
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:id="@+id/setup_name"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/logintext"
+                android:inputType="text"
+                android:hint="Enter Your Name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/setup_dob"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/logintext"
+                android:inputType="date"
+                android:hint="Date Of Birth"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/setup_phoneno"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/logintext"
+                android:inputType="number"
+                android:hint="Phone No"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/setup_interest"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/logintext"
+                android:hint="Area Of Interest"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <Spinner
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:background="@drawable/logintext"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/setup_gender"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/logintext"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Where do you from"
+                android:id="@+id/setup_lives"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/logintext"
+                style="@style/MyEditTextStyle"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Studied at"
+                android:id="@+id/setup_school"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ProgressBar
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/setup_pb"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:textColorHint="@color/white"
+                style="@style/MyEditTextStyle"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/setup_setup"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/submit"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="SetUp"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.admin.svsplacement.Tab_3">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <TextView
+          android:textColor="@color/black"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="5dp"
+         android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:id="@+id/notification_read"
+          android:background="@drawable/rectangle_box"
+          android:gravity="center"
+          android:text="Mark all as read"
+          android:layout_width="match_parent"
+          android:layout_height="50dp" />
+      <android.support.v7.widget.RecyclerView
+          android:layout_marginBottom="20dp"
+          android:id="@+id/notification_recyclerview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </android.support.v7.widget.RecyclerView>
+
+   </LinearLayout>
+
+</FrameLayout>

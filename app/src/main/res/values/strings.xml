@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SVS PLACEMENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner">
+        <item>Select Your Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="spinner_name">
+
+        <item>Register No</item>
+        <item>Department</item>
+        <item>SSLC</item>
+        <item>HSC</item>
+        <item>CGPA</item>
+    </string-array>
+    <string-array name="autocomplete">
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CSE</item>
+        <item>Petro</item>
+        <item>Civil</item>
+        <item>Mech</item>
+    </string-array>
+    <string-array name="spinner_name1">
+        <item>Select promotion method</item>
+        <item>admin</item>
+        <item>student</item>
+    </string-array>
+    <string-array name="spinner_name2">
+        <item>All</item>
+        <item>Department</item>
+        <item>CGPA</item>
+    </string-array>
+    <string-array name="autocomplete1">
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CSE</item>
+        <item>Petro</item>
+        <item>Civil</item>
+        <item>Mech</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+</resources>

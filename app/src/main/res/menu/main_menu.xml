@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Refresh" android:id="@+id/main_menu_refresh"/>
+    <item android:title="Logout" android:id="@+id/main_menu_logut"/>
+</menu>

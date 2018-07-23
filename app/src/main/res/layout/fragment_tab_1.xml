@@ -1,0 +1,67 @@
+<android.support.v4.widget.NestedScrollView
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="@color/white"
+        tools:context="com.example.admin.svsplacement.Tab_1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/tab1_layout"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    style="@style/MyEditTextStyle"
+                    android:layout_margin="10dp"
+                    android:id="@+id/tab1_postEditText"
+                    android:hint="Write Something here..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/tab1_postImageView"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:drawableLeft="@drawable/ic_insert_photo"
+                        android:text="Insert Photo"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/tab1_posttextView"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:background="@drawable/submit"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/tab1_postPostTextView"
+                        android:text="Post"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab1_recyclerview"/>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,76 @@
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        tools:context="com.example.admin.svsplacement.Tab_1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/tab2_layout"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    style="@style/MyEditTextStyle"
+                    android:id="@+id/tab2_postEditText"
+                    android:layout_margin="10dp"
+                    android:hint="Write Something here..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/tab2_postImageView"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Spinner
+                    android:id="@+id/tab2_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <AutoCompleteTextView
+                    android:id="@+id/tab2_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:drawableLeft="@drawable/ic_insert_photo"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/tab2_insertphoto"
+                        android:layout_marginRight="20dp"
+                        android:text="Insert Photo"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:background="@drawable/submit"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/tab2_postPostTextView"
+                        android:text="Post"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="20dp"
+                android:layout_margin="3dp"
+                android:id="@+id/tab2_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

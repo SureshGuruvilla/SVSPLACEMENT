@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/blog1row"
+    android:visibility="gone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/blog1_dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="15dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/blog1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="Loading..."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/blog1_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:text="Loading..."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sharingimage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/post1_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/post1_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/blog1_likeview"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="liked this post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:background="#737373"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/blog1_like"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_thumb_up_white"/>
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/blog1_comment"
+                android:layout_marginLeft="20dp"
+                android:text="Comment"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/blog1_share"
+                android:gravity="center"
+                android:drawableEnd="@drawable/ic_screen_share_black_24dp"
+                android:paddingRight="20dp"
+                android:text="Share"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:drawableRight="@drawable/ic_screen_share_black_24dp" />
+        </LinearLayout>
+        <TextView
+            android:background="#737373"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
